@@ -1,0 +1,16 @@
+var array1 = [10, 4, 5]
+
+var array2 = array1.sort(function(a, b){return a-b});
+
+console.log(array2)
+
+var array3 = [0, 200, 43, -5]
+var array4 = [9, 84, 53, 2, 7]
+var array5 = [-3, 67, 42, 3.14, 100] 
+
+var bigArray = [array1, array3, array4, array5]
+
+for (let i = 1; i < 4; i++) {
+  var newArray = bigArray[i].sort(function(a, b) {return a-b})
+  console.log(newArray);
+}
